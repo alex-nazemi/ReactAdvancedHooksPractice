@@ -12,6 +12,7 @@ function App() {
     if (userIsLoggedIn === "1") {
       setIsLoggedIn("true")
     } 
+
   }, [])
 
   const loginHandler = (email, password) => {
